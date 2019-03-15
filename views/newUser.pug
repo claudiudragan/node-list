@@ -1,0 +1,40 @@
+html
+
+head
+    title Program
+    meta(charset='UTF-8')
+
+body
+    h1 Add New User
+    a(href='/') Home
+    form(method='POST', action='/addUser')
+        p Name: 
+        input(name='name', type='text')
+        p Username: 
+        input(name='username', type='text')
+        p Email: 
+        input(name='email', type='text')
+        p Street: 
+        input(name='street', type='text')
+        p Suite: 
+        input(name='suite', type='text')
+        p City: 
+        input(name='city', type='text')
+        p Zipcode: 
+        input(name='zipcode', type='text')
+        p Latitude: 
+        input(name='lat', type='text')
+        p Longitude: 
+        input(name='lng', type='text')
+        p Phone: 
+        input(name='phone', type='text')
+        p Website: 
+        input(name='website', type='text')
+        p Company Name: 
+        input(name='companyName', type='text')
+        p Company Catchphrase: 
+        input(name='companyCatchphrase', type='text')
+        p Company BS: 
+        input(name='companyBs', type='text')
+        br
+        input(type='submit', value="Submit") 

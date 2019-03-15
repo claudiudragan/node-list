@@ -1,0 +1,40 @@
+html
+
+head
+    title Program
+    meta(charset='UTF-8')
+
+body
+    h1 Edit user
+    a(href='/') Home
+    form(method='POST', action='/submitEdit/' + id)
+        p Name: 
+        input(name='name', type='text', value=user.name)
+        p Username: 
+        input(name='username', type='text', value=user.username)
+        p Email: 
+        input(name='email', type='text', value=user.email)
+        p Street: 
+        input(name='street', type='text', value=user.street)
+        p Suite: 
+        input(name='suite', type='text', value=user.suite)
+        p City: 
+        input(name='city', type='text', value=user.city)
+        p Zipcode: 
+        input(name='zipcode', type='text', value=user.zipcode)
+        p Latitude: 
+        input(name='lat', type='text', value=user.lat)
+        p Longitude: 
+        input(name='lng', type='text', value=user.lng)
+        p Phone: 
+        input(name='phone', type='text', value=user.phone)
+        p Website: 
+        input(name='website', type='text', , value=user.website)
+        p Company Name: 
+        input(name='companyName', type='text', value=user.companyName)
+        p Company Catchphrase: 
+        input(name='companyCatchphrase', type='text', value=user.companyCatchphrase)
+        p Company BS: 
+        input(name='companyBs', type='text', value=user.companyBs)
+        br
+        input(type='submit', value="Submit") 
